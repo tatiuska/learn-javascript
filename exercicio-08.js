@@ -1,8 +1,9 @@
-//retornar uma string e o primeiro caracter
-function getFirstCharacter(name) {
+//retornar string e último caractere
+function getLastCharacter(name) {
     console.log(name);
-    return name.charAt(0);
+    return name[name.length -1];
 }
 
-console.log(getFirstCharacter("Amsterdam"));
-console.log(getFirstCharacter("Japan"));
+console.log(getLastCharacter("Sam"));
+console.log(getLastCharacter("Alex"));
+console.log(getLastCharacter("Charley"));

@@ -1,9 +1,8 @@
-//retornar string e último caractere
-function getLastCharacter(name) {
-    console.log(name);
-    return name[name.length -1];
+// retornar uma string e todos os caracteres, menos o primeiro.
+function skipFirstCharacter(text) {
+    console.log(text);
+    return text.substring(1);
 }
 
-console.log(getLastCharacter("Sam"));
-console.log(getLastCharacter("Alex"));
-console.log(getLastCharacter("Charley"));
+console.log(skipFirstCharacter("Xcode"));
+console.log(skipFirstCharacter("Hello"));
